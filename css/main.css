@@ -1,0 +1,87 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #383e45;
+  font-size: 0.9rem;
+}
+
+.main_img {
+  margin-bottom: 80px;
+}
+
+#about {
+  max-width: 960xp;
+  margin: 0 auto 100px auto;
+  padding: 0 4%;
+  text-align: center;
+}
+#about .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  #about .content {
+    flex-direction: column;
+  }
+  #about .content img {
+    margin-right: 0;
+  }
+}
+#about .text {
+  text-align: left;
+}
+#about .text h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+@media (max-width: 600px) {
+  #about .text h3 {
+    text-align: center;
+  }
+}
+
+#bicycle {
+  max-width: 960px;
+  margin: 0 auto 100px auto;
+  padding: 0 4%;
+  text-align: center;
+}
+#bicycle ul {
+  display: flex;
+  justify-content: space-between;
+}
+#bicycle ul h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  #bicycle ul {
+    flex-direction: column;
+  }
+  #bicycle ul li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+#bicycle li {
+  width: 32%;
+}
+
+.section-title {
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 60px;
+  border-bottom: solid 1px #383e45;
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.5rem;
+  padding: 10px 0;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
